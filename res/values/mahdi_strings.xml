@@ -80,4 +80,8 @@
     <!-- Call end sound -->
     <string name="call_end_sound_title">Call end tone</string>
     <string name="call_end_sound_summary">Play tone on end call</string>
+
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Noise suppression</string>
+    <string name="noise_suppression_summary">Enable noise suppression for calls</string>
 </resources>
