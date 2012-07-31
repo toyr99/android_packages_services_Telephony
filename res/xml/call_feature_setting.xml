@@ -184,6 +184,13 @@
             android:targetClass="com.android.phone.CdmaCallOptions"/>
     </PreferenceScreen>
 
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="button_mwi_notification_key"
+        android:title="@string/mwi_notification_title"
+        android:persistent="false"
+        android:summary="@string/mwi_notification_summary" />
+
     <PreferenceScreen
         android:key="button_voicemail_category_key"
         android:title="@string/voicemail"
