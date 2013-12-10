@@ -35,7 +35,7 @@ import android.os.Vibrator;
 import android.provider.Settings;
 import android.util.Log;
 
-import com.android.internal.util.slim.QuietHoursHelper;
+import com.android.internal.util.mahdi.QuietHoursHelper;
 import com.android.internal.telephony.Phone;
 /**
  * Ringer manager for the Phone app.
