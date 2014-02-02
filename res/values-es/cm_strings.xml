@@ -54,12 +54,45 @@
     <string name="mwi_notification_summary">Mostrar una notificación para los mensajes en espera del buzón de voz</string>
     <string name="perm_change_mobile_network">Cambiar red (2G/3G)</string>
     <string name="perm_change_mobile_network_desc">Las aplicaciones con este permiso pueden, en cualquier momento, cambiar entre datos 2G y 3G. Es más rápido 3G, pero consume más batería y puede costar más dinero.</string>
-    <string name="phone_number_label">Mi número de teléfono</string>
-    <string name="phone_number_summary">Establecer el número asociado a este dispositivo</string>
-    <string name="noise_suppression_title">Supresor de ruido</string>
-    <string name="noise_suppression_summary">Activar la supresión de ruido durante las llamadas</string>
 
     <!-- AOSP -->
     <string name="throttle_status_subtext">Máx de <xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) del período <xliff:g id="used">%3$s</xliff:g>\nPróx período en <xliff:g id="used">%4$d</xliff:g> días (<xliff:g id="used">%5$s</xliff:g>)</string>
     <string name="throttle_data_usage_subtext">Máx de <xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) del período <xliff:g id="used">%3$s</xliff:g></string>
+
+    <!-- In Call UI -->
+    <string name="preference_category_interface">Interface</string>
+    <string name="non_intrusive_incall_title">No intrusivo</string>
+    <string name="non_intrusive_incall_summary">Usar diálogo no intrusivo para llamadas entrantes</string>
+
+    <!-- Call end sound -->
+    <string name="call_end_sound_title">Tono de fin de llamada</string>
+    <string name="call_end_sound_summary">Reproducir tono de fin de llamada</string>
+
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Supresión de ruido</string>
+    <string name="noise_suppression_summary">Activar supresión de ruido para llamadas</string>
+
+    <!-- My Phone Number -->
+    <string name="phone_number_label">Mi número de teléfono</string>
+    <string name="phone_number_summary">Establecer el número asociado a este dispositivo</string>
+    <string name="msisdn_alpha_tag" translatable="false">Voice Line 1</string>
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Acción de voltear</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Voltear dispositivo a\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Voltear teléfono <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">No hacer nada</string>
+    <string name="entry_mute_ringer">Silenciar tono</string>
+    <string name="entry_dismiss_call">Descartar llamada</string>
+    <string name="summary_do_nothing">no hacer nada</string>
+    <string name="summary_mute_ringer">silenciar tono</string>
+    <string name="summary_dismiss_call">descartar llamada</string>
+
+    <string name="personal_category">Ajustes personales</string>
 </resources>
