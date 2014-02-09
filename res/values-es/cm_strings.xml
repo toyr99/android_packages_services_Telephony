@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2013 The CyanogenMod Project
+     Copyright (C) 2013-2014 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,20 +15,37 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Toasts for various transient network events -->
+    <!-- Toast text for Unconditional Call Forwarding enabled  -->
     <string name="call_notif_unconditionalCF">Desvío incondicional de llamada activo</string>
+    <!-- Toast text for Conditional Call Forwarding enabled  -->
     <string name="call_notif_conditionalCF">Desvío condicional de llamada activo</string>
+    <!-- Toast text for a forwarded MO call  -->
     <string name="call_notif_MOcall_forwarding">Reenvío de llamada saliente</string>
+    <!-- Toast text for MO call, when the caller & callee both belng to a CUG group -->
     <string name="call_notif_cugcall">Llamada de grupo cerrado</string>
+    <!-- In-call screen: status label when MO calls are barred -->
     <string name="call_notif_outgoing_barred">Excluidas llamadas salientes</string>
+    <!-- Toast text for MO calls, when incoming calls are barred at remote party -->
     <string name="call_notif_incoming_barred">Excluidas llamadas entrantes</string>
+    <!-- Toast text for MO calls when CLIR Suppression is rejected -->
     <string name="call_notif_clir_suppression_rejected">Rechazadas llamadas ocultas</string>
+    <!-- In-call screen: status label when MO call gets deflected to another party -->
     <string name="call_notif_call_deflected">Llamada desviada</string>
+    <!-- Toast text for incoming call being forwarded to other remote party  -->
     <string name="call_notif_MTcall_forwarding">Llamada entrante desviada</string>
+    <!-- Toast text for incoming call which is part of MultiParty Call -->
     <string name="call_notif_multipartycall">Llamada múltiple</string>
+    <!-- Toast text for incoming call which is answered,put on hold & then released -->
     <string name="call_notif_callonhold_released">Llamada recuperada</string>
+    <!-- Toast text for incoming call forward check received -->
     <string name="call_notif_forwardcheckreceived">Llamada enviada</string>
+    <!-- Toast text for incoming call connecting through ECT -->
     <string name="call_notif_callconnectingect">Llamada conectándose por centralita</string>
+    <!-- Toast text for incoming call connected through ECT -->
     <string name="call_notif_callconnectedect">Llamada conectada por centralita</string>
+
+    <!-- Advanced Settings -->
     <string name="incall_vibration">Vibración en llamada</string>
     <string name="vibrate_outgoing">Vibrar al contestar</string>
     <string name="vibrate_call_waiting">Vibrar en llamada en espera</string>
@@ -37,21 +54,27 @@
     <string name="vibrate_45_sum">Vibrar en el segundo 45 de cada minuto de una llamada saliente</string>
     <string name="show_ssn_label">Notificación de eventos</string>
     <string name="show_ssn_summary">Mostrar la notificación de eventos de red relacionados con la gestión de llamadas</string>
+
+    <!-- Blacklist preferences -->
     <string name="blacklist_title">Lista negra</string>
     <string name="blacklist_summary_disabled">Deshabilitada</string>
     <string name="blacklist_summary">Las llamadas entrantes de los números en la lista negra serán bloqueadas</string>
-    <string name="blacklist_call_notification">Llamada de %s, bloqueada</string>
-    <string name="blacklist_call_notification_private_number">Llamada de número privado, bloqueada</string>
-    <string name="blacklist_call_notification_unknown_number">Número desconocido %s, bloqueado</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">Bloquear llamadas de %s</string>
+    <string name="blacklist_call_notification_private_number">Bloquear llamadas de números privados</string>
+    <string name="blacklist_call_notification_unknown_number">Bloquear llamadas de números desconocidos %s</string>
     <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> llamadas fueron bloqueadas</string>
-    <string name="blacklist_message_notification">Mensaje de %s, bloqueado</string>
-    <string name="blacklist_message_notification_private_number">Mensaje de número privado, bloqueado</string>
-    <string name="blacklist_message_notification_unknown_number">Mensaje de número desconocido %s, bloqueado</string>
+    <string name="blacklist_message_notification">Bloquear mensaje de %s</string>
+    <string name="blacklist_message_notification_private_number">Bloquear mensajes de números privados</string>
+    <string name="blacklist_message_notification_unknown_number">Bloquear mensajes de números desconocidos %s</string>
     <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> mensajes fueron bloqueados</string>
     <string name="blacklist_notification_list_private">Privado</string>
     <string name="unblock_number">Desbloquear</string>
     <string name="mwi_notification_title">Notificación buzón de voz</string>
     <string name="mwi_notification_summary">Mostrar una notificación para los mensajes en espera del buzón de voz</string>
+
+    <!-- Permission for notification-bar network toggle -->
     <string name="perm_change_mobile_network">Cambiar red (2G/3G)</string>
     <string name="perm_change_mobile_network_desc">Las aplicaciones con este permiso pueden, en cualquier momento, cambiar entre datos 2G y 3G. Es más rápido 3G, pero consume más batería y puede costar más dinero.</string>
 
@@ -81,18 +104,18 @@
     <string name="flip_action_title">Acción de voltear</string>
 
     <!-- Dialog title of the flip action setting. -->
-    <string name="flip_action_dialog_title">Voltear dispositivo a\u2026</string>
+    <string name="flip_action_dialog_title">El volteo del dispositivo\u2026</string>
 
     <!-- Setting summary for the flip action setting. -->
-    <string name="flip_action_summary">Voltear teléfono <xliff:g id="action">%s</xliff:g></string>
+    <string name="flip_action_summary">Al voltear el teléfono <xliff:g id="action">%s</xliff:g></string>
 
     <!-- Values for flip action array entries -->
-    <string name="entry_do_nothing">No hacer nada</string>
-    <string name="entry_mute_ringer">Silenciar tono</string>
-    <string name="entry_dismiss_call">Descartar llamada</string>
-    <string name="summary_do_nothing">no hacer nada</string>
-    <string name="summary_mute_ringer">silenciar tono</string>
-    <string name="summary_dismiss_call">descartar llamada</string>
+    <string name="entry_do_nothing">No hace nada</string>
+    <string name="entry_mute_ringer">Silencia tono</string>
+    <string name="entry_dismiss_call">Descarta llamada</string>
+    <string name="summary_do_nothing">no hará nada</string>
+    <string name="summary_mute_ringer">silenciará tono</string>
+    <string name="summary_dismiss_call">descartará llamada</string>
 
     <string name="personal_category">Ajustes personales</string>
 </resources>
