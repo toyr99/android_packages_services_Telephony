@@ -76,11 +76,6 @@
     <string name="perm_change_mobile_network">change network mode (2G/3G)</string>
     <string name="perm_change_mobile_network_desc">Allows the app to change between 2G data and 3G data at any time. 3G is faster, but consumes more battery and may cause additional cost.</string>
 
-    <!-- In Call UI -->
-    <string name="preference_category_interface">Interface</string>
-    <string name="non_intrusive_incall_title">Non intrusive</string>
-    <string name="non_intrusive_incall_summary">Use non intrusive dialog for incoming calls</string>
-
     <!-- Call end sound -->
     <string name="call_end_sound_title">Call end tone</string>
     <string name="call_end_sound_summary">Play tone on end call</string>
