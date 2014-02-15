@@ -56,4 +56,14 @@
     <string name="perm_change_mobile_network_desc">Ermöglicht der App, jederzeit zwischen 2G- und 3G-Netz zu wechseln</string>
     <string name="phone_number_label">Eigene Rufnummer</string>
     <string name="phone_number_summary">Auf der SIM-Karte gespeicherte eigene Rufnummer setzen</string>
+
+    <!-- Number lookup -->
+    <string name="number_lookup">Telefonnummernsuche</string>
+    <string name="enable_forward_lookup_title">Telefonnummernsuche aktivieren</string>
+    <string name="enable_forward_lookup_summary">Orte in der Nähe in der Suche berücksichtigen</string>
+    <string name="enable_reverse_lookup_title">Rückwärtsuche aktivieren</string>
+    <string name="enable_reverse_lookup_summary">Informationen über die Person oder den Ort einer unbekannten Nummer bei eingehenden Anrufe suchen</string>
+    <string name="choose_lookup_providers">Suchmaschine auswählen</string>
+    <string name="choose_forward_lookup_provider_title">Anbieter der Vorwärtssuche auswählen</string>
+    <string name="choose_reverse_lookup_provider_title">Anbieter der Rückwärtssuche auswählen</string>
 </resources>
