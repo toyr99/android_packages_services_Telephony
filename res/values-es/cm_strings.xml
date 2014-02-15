@@ -118,4 +118,15 @@
     <string name="summary_dismiss_call">descartará llamada</string>
 
     <string name="personal_category">Ajustes personales</string>
+
+    <!-- Number lookup -->
+    <string name="number_lookup">Número de teléfono de búsqueda</string>
+    <string name="enable_forward_lookup_title">Activar búsqueda de enviadas</string>
+    <string name="enable_forward_lookup_summary">Mostrar los lugares cercanos al buscar en el marcador</string>
+    <string name="enable_reverse_lookup_title">Activar búsqueda de recibidas</string>
+    <string name="enable_reverse_lookup_summary">Busque información acerca de la persona o el lugar de un número desconocido en las llamadas entrantes</string>
+    <string name="choose_lookup_providers">Elegir proveedores de búsqueda</string>
+    <string name="choose_forward_lookup_provider_title">Elija proveedor de búsqueda de enviadas</string>
+    <string name="choose_reverse_lookup_provider_title">Elija proveedor de búsqueda de recibidas</string>
+
 </resources>
