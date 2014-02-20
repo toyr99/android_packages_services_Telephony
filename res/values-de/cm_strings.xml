@@ -66,4 +66,27 @@
     <string name="choose_lookup_providers">Suchmaschine auswählen</string>
     <string name="choose_forward_lookup_provider_title">Anbieter der Vorwärtssuche auswählen</string>
     <string name="choose_reverse_lookup_provider_title">Anbieter der Rückwärtssuche auswählen</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_title">Drehaktionen</string>
+    <string name="flip_action_dialog_title">Gerät umdrehen \u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Umdrehen des Geräts <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">Abschalten</string>
+    <string name="entry_mute_ringer">Ton stumschalten</string>
+    <string name="entry_dismiss_call">Anruf verwerfen</string>
+    <string name="summary_do_nothing">abgeschaltet</string>
+    <string name="summary_mute_ringer">schaltet den Ton stumm</string>
+    <string name="summary_dismiss_call">verwirft den Anruf</string>
+
+    <!-- Call UI in background -->
+    <string name="bg_incall">Eingehende Anrufe im Hintergrund</string>
+    <string name="bg_incall_summary">Eingehende Anrufsignalisierung nur durch Benachrichtigung und Klingelton</string>
+
+    <!-- Call end sound -->
+    <string name="call_end_sound_title">Ton bei Gesprächsende</string>
+    <string name="call_end_sound_summary">Ton beim Beenden von Gesprächen abspielen</string>
 </resources>
