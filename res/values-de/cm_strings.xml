@@ -89,4 +89,8 @@
     <!-- Call end sound -->
     <string name="call_end_sound_title">Ton bei Gesprächsende</string>
     <string name="call_end_sound_summary">Ton beim Beenden von Gesprächen abspielen</string>
+
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Rauschunterdrückung</string>
+    <string name="noise_suppression_summary">Rauschunterdrückung bei Telefonaten einschalten</string>
 </resources>
