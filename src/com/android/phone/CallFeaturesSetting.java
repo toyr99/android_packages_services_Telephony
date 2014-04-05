@@ -204,6 +204,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private static final String FLIP_ACTION_KEY = "flip_action";
 
     private static final String BUTTON_CALL_END_SOUND_KEY = "button_call_end_sound";
+    private static final String BUTTON_SMART_PHONE_CALL_KEY = "button_smart_phone_call";
 
     private static final String SWITCH_ENABLE_FORWARD_LOOKUP =
             "switch_enable_forward_lookup";
@@ -310,6 +311,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private SipSharedPreferences mSipSharedPreferences;
     private PreferenceScreen mButtonBlacklist;
     private CheckBoxPreference mCallEndSound;
+    private CheckBoxPreference mSmartCall;
     private ListPreference mFlipAction;
     private CheckBoxPreference mEnableForwardLookup;
     private CheckBoxPreference mEnablePeopleLookup;
@@ -579,6 +581,10 @@ public class CallFeaturesSetting extends PreferenceActivity
                 // This should let the preference use default behavior in the xml.
                 return false;
             }
+        } else if (preference == mSmartCall){
+            Settings.System.putInt(getContentResolver(), Settings.System.SMART_PHONE_CALLER,
+                    mSmartCall.isChecked() ? 1 : 0);
+            return true;
         } else if (preference == mCallEndSound){
             Settings.System.putInt(getContentResolver(), Settings.System.CALL_END_SOUND,
                     mCallEndSound.isChecked() ? 1 : 0);
@@ -1726,6 +1732,10 @@ public class CallFeaturesSetting extends PreferenceActivity
                 throw new IllegalStateException("Unexpected phone type: " + phoneType);
             }
         }
+
+        mSmartCall = (CheckBoxPreference) findPreference(BUTTON_SMART_PHONE_CALL_KEY);
+        mSmartCall.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.SMART_PHONE_CALLER, 0) != 0 ? true : false);
 
         mCallEndSound = (CheckBoxPreference) findPreference(BUTTON_CALL_END_SOUND_KEY);
         mCallEndSound.setChecked(Settings.System.getInt(getContentResolver(),

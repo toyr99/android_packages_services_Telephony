@@ -45,6 +45,10 @@
     <!-- Toast text for incoming call connected through ECT -->
     <string name="call_notif_callconnectedect">Call connected through explicit call transfer</string>
 
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">Smart phone call</string>
+    <string name="smart_phone_call_summary">Put on your ear, and this will automatically call current number in message or dialer</string>
+
     <!-- Advanced Settings -->
     <string name="incall_vibration">In-call vibration</string>
     <string name="vibrate_outgoing">Vibrate on answer</string>
