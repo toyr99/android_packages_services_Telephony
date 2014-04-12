@@ -44,6 +44,10 @@ limitations under the License.
     <string name="call_notif_callconnectingect">Anruf wird in Vermittlungsstelle verbunden</string>
     <!-- Toast text for incoming call connected through ECT -->
     <string name="call_notif_callconnectedect">Anruf wurde in Vermittlungsstelle verbunden</string>
+    
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">Intelligenter Anruf</string>
+    <string name="smart_phone_call_summary">Telefon an das Ohr halten um die Rufnummer in einer Nachricht oder im Dialer automatisch anzurufen</string>
  
     <!-- Advanced Settings -->
     <string name="incall_vibration">Vibrationseinstellungen</string>
@@ -88,6 +92,7 @@ limitations under the License.
     <string name="phone_number_label">Eigene Rufnummer</string>
     <string name="phone_number_summary">Auf der SIM-Karte gespeicherte eigene Rufnummer setzen</string>
 
+
     <!-- Setting title for the flip action setting. -->
     <string name="flip_action_title">Drehaktionen</string>
 
@@ -125,9 +130,8 @@ limitations under the License.
     <string name="enable_reverse_lookup_summary">Informationen über die Person oder den Ort einer unbekannten Nummer bei eingehenden Anrufe suchen</string>
     <string name="choose_lookup_providers">Suchmaschine auswählen</string>
     <string name="choose_forward_lookup_provider_title">Anbieter der Vorwärtssuche auswählen</string>
-    <string name="choose_people_lookup_provider_title">Anbieter für die Personensuche auswählen</string>
+    <string name="choose_people_lookup_provider_title">Anbieter der Personensuche auswählen</string>
     <string name="choose_reverse_lookup_provider_title">Anbieter der Rückwärtssuche auswählen</string>
-	
 
     <!-- Mobile network settings, preferred network mode -->
     <string name="preferred_network_mode_td_scdma_only">Nur TD-SCDMA</string>
