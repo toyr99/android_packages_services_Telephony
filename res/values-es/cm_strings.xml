@@ -98,7 +98,6 @@
     <!-- My Phone Number -->
     <string name="phone_number_label">Mi número de teléfono</string>
     <string name="phone_number_summary">Establecer el número asociado a este dispositivo</string>
-    <string name="msisdn_alpha_tag" translatable="false">Voice Line 1</string>
 
     <!-- Setting title for the flip action setting. -->
     <string name="flip_action_title">Acción de voltear</string>
@@ -123,14 +122,22 @@
     <string name="number_lookup">Número de teléfono de búsqueda</string>
     <string name="enable_forward_lookup_title">Activar búsqueda de enviadas</string>
     <string name="enable_forward_lookup_summary">Mostrar los lugares cercanos al buscar en el marcador</string>
+    <string name="enable_people_lookup_title">People lookup</string>
+    <string name="enable_people_lookup_summary">Mostrar resultados en línea para personas en la búsqueda del marcador</string>
     <string name="enable_reverse_lookup_title">Activar búsqueda de recibidas</string>
     <string name="enable_reverse_lookup_summary">Busque información acerca de la persona o el lugar de un número desconocido en las llamadas entrantes</string>
     <string name="choose_lookup_providers">Elegir proveedores de búsqueda</string>
     <string name="choose_forward_lookup_provider_title">Elija proveedor de búsqueda de enviadas</string>
+    <string name="choose_people_lookup_provider_title">Elija proveedor de people lookup</string>
     <string name="choose_reverse_lookup_provider_title">Elija proveedor de búsqueda de recibidas</string>
 
     <!-- Call UI in background -->
     <string name="bg_incall">Llamada entrante en el fondo</string>
     <string name="bg_incall_summary">Mantiene la IU de llamada entrante en segundo plano cuando la pantalla está encendida, muestra una notificación y reproduce sonido unicamente</string>
+
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">Llamada de teléfono inteligente</string>
+    <string name="smart_phone_call_summary">Ponga el dispositivo en su oído, y llamará automáticamente el número actual de mensaje o marcador</string>
+
 
 </resources>
