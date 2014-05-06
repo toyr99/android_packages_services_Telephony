@@ -36,5 +36,5 @@
 
     <!-- Settings screen should use the same colors as the Dialer -->
     <color name="phone_settings_background_color">#000000</color>
-    <color name="phone_settings_actionbar_color">#f0f0f0</color>
+    <color name="phone_settings_actionbar_color">#0f0f0f</color>
 </resources>
