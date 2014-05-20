@@ -58,4 +58,70 @@
     <string name="phone_number_summary">Imposta il numero di telefono di questo dispositivo</string>
     <string name="noise_suppression_title">Riduzione rumore</string>
     <string name="noise_suppression_summary">Attiva la riduzione rumore nelle chiamate</string>
+    
+    <!-- Call end sound -->
+    <string name="call_end_sound_title">Tono fine chiamata</string>
+    <string name="call_end_sound_summary">Tono quando finisce la chiamata</string>
+    
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Azione flip</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Girare il dispositivo per\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Girare verso il basso il dispositivo <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">Fare niente</string>
+    <string name="entry_mute_ringer">Disattiva suoneria</string>
+    <string name="entry_dismiss_call">Rifiuta la chiamata</string>
+    <string name="summary_do_nothing">non farà nulla</string>
+    <string name="summary_mute_ringer">diattiverà la suoneria</string>
+    <string name="summary_dismiss_call">rifiuterà la chiamata</string>
+
+    <string name="personal_category">Impostazioni personali</string>
+   
+    <!-- Call UI in background -->
+    <string name="bg_incall">Chiamata in arrivo non intrusiva</string>
+    <string name="bg_incall_summary">Lascia la UI della chiamata in arrivo in background, sarà visualizzata una notifica e partirà la suoneria.</string>
+
+    <!-- Number lookup -->
+    <string name="number_lookup">Ricerca numero di telefono</string>
+    <string name="enable_forward_lookup_title">Ricerca diretta</string>
+    <string name="enable_forward_lookup_summary">Mostra luoghi vicini durante la ricerca nel dialer</string>
+    <string name="enable_people_lookup_title">Ricerca persone</string>
+    <string name="enable_people_lookup_summary">Mostra risultati online quando si compone nel dialer</string>
+    <string name="enable_reverse_lookup_title">Ricerca inversa</string>
+    <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
+    <string name="choose_lookup_providers">Scegli provider ricerche</string>
+    <string name="choose_forward_lookup_provider_title">Scegli provider ricerca diretta</string>
+    <string name="choose_people_lookup_provider_title">Scegli provider ricerca persone</string>
+    <string name="choose_reverse_lookup_provider_title">Scegli provider ricerca inversa</string>
+    
+    <!-- Mobile network settings, preferred network mode -->
+    <string name="preferred_network_mode_td_scdma_lte_cdma_evdo_gsm_wcdma" translatable="false">TD-SCDMA/LTE/CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_td_scdma_cdma_evdo_gsm_wcdma" translatable="false">TD-SCDMA/CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte" translatable="false">TD-SCDMA/GSM/WCDMA/LTE</string>
+    <string name="preferred_network_mode_td_scdma_wcdma_lte" translatable="false">TD-SCDMA/WCDMA/LTE</string>
+    <string name="preferred_network_mode_td_scdma_gsm_wcdma" translatable="false">TD-SCDMA/GSM/WCDMA</string>
+    <string name="preferred_network_mode_td_scdma_gsm_lte" translatable="false">TD-SCDMA/GSM/LTE</string>
+    <string name="preferred_network_mode_td_scdma_gsm" translatable="false">TD-SCDMA/GSM</string>
+    <string name="preferred_network_mode_td_scdma_lte" translatable="false">TD-SCDMA/LTE</string>
+    <string name="preferred_network_mode_td_scdma_wcdma" translatable="false">TD-SCDMA/WCDMA</string>
+    <string name="preferred_network_mode_td_scdma_only">Solo TD-SCDMA</string>
+    <string name="preferred_network_mode_lte_wcdma" translatable="false">LTE/WCDMA</string>
+    <string name="preferred_network_mode_lte" translatable="false">LTE</string>
+    <string name="preferred_network_mode_global">Globale</string>
+    <string name="preferred_network_mode_gsm_wcdma_lte" translatable="false">GSM/WCDMA/LTE</string>
+    <string name="preferred_network_mode_cdma_lte_evdo" translatable="false">CDMA + LTE/EvDo</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma" translatable="false">CDMA/EvDo/GSM/WCDMA</string>
+    <string name="preferred_network_mode_evdo_only">Solo EvDo</string>
+    <string name="preferred_network_mode_cdma_without_evdo">CDMA senza EvDo</string>
+    <string name="preferred_network_mode_cdma_evdo_auto">CDMA/EvDo automatico</string>
+    <string name="preferred_network_mode_gsm_wcdma_auto">GSM/WCDMA automatico</string>
+    <string name="preferred_network_mode_wcdma_only">Solo WCDMA</string>
+    <string name="preferred_network_mode_gsm_only">Solo GSM</string>
+    <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA preferito</string>
+    
 </resources>
