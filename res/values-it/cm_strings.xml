@@ -89,11 +89,11 @@
     <!-- Number lookup -->
     <string name="number_lookup">Ricerca numero di telefono</string>
     <string name="enable_forward_lookup_title">Ricerca diretta</string>
-    <string name="enable_forward_lookup_summary">Mostra luoghi vicini durante la ricerca nel dialer</string>
+    <string name="enable_forward_lookup_summary">Mostra luoghi di interesse vicini durante la ricerca nel dialer</string>
     <string name="enable_people_lookup_title">Ricerca persone</string>
-    <string name="enable_people_lookup_summary">Mostra risultati online quando si compone nel dialer</string>
+    <string name="enable_people_lookup_summary">Mostra risultati di persone online quando si compone nel dialer</string>
     <string name="enable_reverse_lookup_title">Ricerca inversa</string>
-    <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
+    <string name="enable_reverse_lookup_summary">Cerca informazioni sulla persona o il luogo di numeri sconosciuti nelle chiamate in arrivo</string>
     <string name="choose_lookup_providers">Scegli provider ricerche</string>
     <string name="choose_forward_lookup_provider_title">Scegli provider ricerca diretta</string>
     <string name="choose_people_lookup_provider_title">Scegli provider ricerca persone</string>
@@ -123,5 +123,9 @@
     <string name="preferred_network_mode_wcdma_only">Solo WCDMA</string>
     <string name="preferred_network_mode_gsm_only">Solo GSM</string>
     <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA preferito</string>
+    
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">Chiamata intelligente</string>
+    <string name="smart_phone_call_summary">Avvicina il dispositivo all\'orecchia, e partirà automaticamente la chiamata nel dialer o nell\'app messaggi</string>
     
 </resources>
