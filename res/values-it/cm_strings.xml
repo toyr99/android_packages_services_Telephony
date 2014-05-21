@@ -126,6 +126,6 @@
     
     <!-- Smart Phone Call -->
     <string name="smart_phone_call_title">Chiamata intelligente</string>
-    <string name="smart_phone_call_summary">Avvicina il dispositivo all\'orecchia, e partirà automaticamente la chiamata nel dialer o nell\'app messaggi</string>
+    <string name="smart_phone_call_summary">Avvicina il dispositivo all\'orecchio, e partirà automaticamente la chiamata nel dialer o nell\'app messaggi</string>
     
 </resources>
