@@ -161,4 +161,8 @@
     <!-- Incall Glowpad transparency -->
     <string name="glow_bg_trans">Incoming call</string>
     <string name="glow_bg_trans_summary">Make glowpad background transparent during incoming call so entire contact picture is visible</string>
+
+    <!-- Pulse torch with incoming call -->
+    <string name="torch_incoming_title">Pulse torch on incoming call</string>
+    <string name="torch_incoming_seekbar_title">Torch pulse rate</string>
 </resources>
