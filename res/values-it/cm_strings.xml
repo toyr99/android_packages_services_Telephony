@@ -114,4 +114,11 @@
     <string name="smart_phone_call_title">Chiamata intelligente</string>
     <string name="smart_phone_call_summary">Avvicina il dispositivo all\'orecchio, e partirà automaticamente la chiamata nel dialer o nell\'app messaggi</string>
     
+    <!-- Incall Glowpad transparency -->
+    <string name="glow_bg_trans">Chiamata in arrivo trasparente</string>
+    <string name="glow_bg_trans_summary">Il pad per le azioni diventa trasparente così è visibile tutta la foto del contatto</string>
+
+    <!-- Pulse torch with incoming call -->
+    <string name="torch_incoming_title">Torcia pulsante durante chiamata in arrivo</string>
+    <string name="torch_incoming_seekbar_title">Velocità pulsazione torcia</string>
 </resources>
