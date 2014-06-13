@@ -139,5 +139,9 @@
     <string name="smart_phone_call_title">Llamada de teléfono inteligente</string>
     <string name="smart_phone_call_summary">Ponga el dispositivo en su oído, y llamará automáticamente el número actual de mensaje o marcador</string>
 
+    <!-- Dialpad key padding. -->
+    <string name="dialkey_padding_title">Separación de teclas del marcador</string>
+    <string name="dialkey_padding_dialog_title">Separación de teclas del marcador</string>
+    <string name="dialkey_padding_summary">Espaciado superior e inferior de las teclas numericas del panel de marcado</string>
 
 </resources>

@@ -202,6 +202,8 @@ public class CallFeaturesSetting extends PreferenceActivity
     private static final String BUTTON_CALL_UI_IN_BACKGROUND = "bg_incall_screen";
     private static final String BUTTON_CALL_UI_AS_HEADS_UP = "bg_incall_screen_as_heads_up";
 
+    private static final String DIALKEY_PADDING = "dialkey_padding";
+
     private static final String VM_NUMBERS_SHARED_PREFERENCES_NAME = "vm_numbers";
 
     private static final String BUTTON_SIP_CALL_OPTIONS =
@@ -330,6 +332,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private CheckBoxPreference mButtonHAC;
     private CheckBoxPreference mButtonCallUiInBackground;
     private CheckBoxPreference mButtonCallUiAsHeadsUp;
+    private ListPreference mDialkeyPadding;
     private ListPreference mButtonDTMF;
     private ListPreference mButtonTTY;
     private CheckBoxPreference mButtonNoiseSuppression;
@@ -674,6 +677,10 @@ public class CallFeaturesSetting extends PreferenceActivity
             Settings.System.putInt(mPhone.getContext().getContentResolver(),
                     Settings.System.CALL_UI_AS_HEADS_UP,
                     (Boolean) objValue ? 1 : 0);
+        } else if (preference == mDialkeyPadding) {
+            final int val = Integer.valueOf((String) objValue);
+            Settings.System.putInt(getContentResolver(),
+                Settings.System.DIALKEY_PADDING, val);
         } else if (preference == mVoicemailProviders) {
             final String newProviderKey = (String) objValue;
             if (DBG) {
@@ -1682,6 +1689,8 @@ public class CallFeaturesSetting extends PreferenceActivity
                 (CheckBoxPreference) findPreference(BUTTON_CALL_UI_IN_BACKGROUND);
         mButtonCallUiAsHeadsUp =
                 (CheckBoxPreference) findPreference(BUTTON_CALL_UI_AS_HEADS_UP);
+        mDialkeyPadding =
+                (ListPreference) findPreference(DIALKEY_PADDING);
         mVoicemailProviders = (ListPreference) findPreference(BUTTON_VOICEMAIL_PROVIDER_KEY);
         mButtonBlacklist = (PreferenceScreen) findPreference(BUTTON_BLACKLIST);
         mFlipAction = (ListPreference) findPreference(FLIP_ACTION_KEY);
@@ -1789,6 +1798,10 @@ public class CallFeaturesSetting extends PreferenceActivity
                 prefSet.removePreference(mButtonNoiseSuppression);
                 mButtonNoiseSuppression = null;
             }
+        }
+
+        if (mDialkeyPadding != null) {
+            mDialkeyPadding.setOnPreferenceChangeListener(this);
         }
 
         if (mFlipAction != null) {
@@ -2090,6 +2103,12 @@ public class CallFeaturesSetting extends PreferenceActivity
             int callUiAsHeadsUp = Settings.System.getInt(getContentResolver(),
                     Settings.System.CALL_UI_AS_HEADS_UP, 1);
             mButtonCallUiAsHeadsUp.setChecked(callUiAsHeadsUp != 0);
+        }
+
+        if (mDialkeyPadding != null) {
+            int dialkeyPadding = Settings.System.getInt(getContentResolver(),
+                    Settings.System.DIALKEY_PADDING, 0);
+            mDialkeyPadding.setValue(String.valueOf(dialkeyPadding));
         }
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(

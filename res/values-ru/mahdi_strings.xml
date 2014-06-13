@@ -131,4 +131,9 @@
     <!-- Pulse torch with incoming call -->
     <string name="torch_incoming_title">Пульсация фонариком при входящем вызове</string>
     <string name="torch_incoming_seekbar_title">Частота пульсации фонарика</string>
+
+    <!-- Dialpad key padding. -->
+    <string name="dialkey_padding_title">Подсветка кнопок номеронабирателя</string>
+    <string name="dialkey_padding_dialog_title">Подветка кнопок номеронабирателя</string>
+    <string name="dialkey_padding_summary">Размер подсветки нажатой кнопки номеронабирателя сверху и снизу</string>
 </resources>
