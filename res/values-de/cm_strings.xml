@@ -144,10 +144,6 @@ limitations under the License.
     <string name="preferred_network_mode_gsm_only">Nur GSM</string>
     <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA bevorzugt</string>
 
-    <!-- Incall Glowpad transparency -->
-    <string name="glow_bg_trans">Eingehender Anruf</string>
-    <string name="glow_bg_trans_summary">Transparenter Glowpad-Hintergrund bei eingehenden Anrufen um das gesamte Kontaktbild sichtbar zu machen</string>
-
     <!-- Pulse torch with incoming call -->
     <string name="torch_incoming_title">Pulsieren der Taschenlampe bei eingehenden Anrufen</string>
     <string name="torch_incoming_seekbar_title">Pulsrate</string>
