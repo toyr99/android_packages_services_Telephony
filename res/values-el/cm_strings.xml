@@ -1,61 +1,147 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2013-2014 The CyanogenMod Project
+Copyright (C) 2013-2014 The CyanogenMod Project
 
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-          http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Toasts for various transient network events -->
+    <!-- Toast text for Unconditional Call Forwarding enabled -->
     <string name="call_notif_unconditionalCF">Προώθηση κλήσεων άνευ όρων ενεργή</string>
-    <string name="call_notif_conditionalCF">Προώθηση κλήσεων υπό όρους ενεργή</string>
-    <string name="call_notif_MOcall_forwarding">Η εξερχόμενη κλήση προωθείται</string>
+    <!-- Toast text for Conditional Call Forwarding enabled -->
+    <string name="call_notif_conditionalCF">Προώθηση κλήσεων με όρους ενεργή</string>
+    <!-- Toast text for a forwarded MO call -->
+    <string name="call_notif_MOcall_forwarding">Η εξερχόμενη κλήση προωθήθηκε</string>
+    <!-- Toast text for MO call, when the caller & callee both belng to a CUG group -->
     <string name="call_notif_cugcall">Κλήση σε κλειστή ομάδα χρηστών</string>
-    <string name="call_notif_outgoing_barred">Φραγή εξερχόμενων κλήσεων</string>
-    <string name="call_notif_incoming_barred">Φραγή εισερχόμενων κλήσεων από τον απομακρυσμένο χρήστη</string>
-    <string name="call_notif_clir_suppression_rejected">Η απόκρυψη αριθμού απορρίφθηκε από το δίκτυο</string>
-    <string name="call_notif_call_deflected">Η κλήση προωθήθηκε από τον απομακρυσμένο χρήστη</string>
-    <string name="call_notif_MTcall_forwarding">Η εισερχόμενη κλήση προωθείται</string>
-    <string name="call_notif_multipartycall">Συνδιάλεξη πολλαπλών χρηστών</string>
-    <string name="call_notif_callonhold_released">Η κλήση απελευθερώθηκε απομακρυσμένα</string>
+    <!-- In-call screen: status label when MO calls are barred -->
+    <string name="call_notif_outgoing_barred">Φραγή εξερχομένων κλήσεων</string>
+    <!-- Toast text for MO calls, when incoming calls are barred at remote party -->
+    <string name="call_notif_incoming_barred">Φραγή εισερχομένων κλήσεων απο τον καλούμενο</string>
+    <!-- Toast text for MO calls when CLIR Suppression is rejected -->
+    <string name="call_notif_clir_suppression_rejected">Own number suppression rejected by network</string>
+    <!-- In-call screen: status label when MO call gets deflected to another party -->
+    <string name="call_notif_call_deflected">Η κλήση προωθήθηκε απο τον καλούμενο</string>
+    <!-- Toast text for incoming call being forwarded to other remote party -->
+    <string name="call_notif_MTcall_forwarding">Η εισερχόμενη κλήση προωθήθηκε</string>
+    <!-- Toast text for incoming call which is part of MultiParty Call -->
+    <string name="call_notif_multipartycall">Κλήση πολλών ατόμων</string>
+    <!-- Toast text for incoming call which is answered,put on hold & then released -->
+    <string name="call_notif_callonhold_released">Η κλήση τερματίστηκε απο τον καλούντα</string>
+    <!-- Toast text for incoming call forward check received -->
     <string name="call_notif_forwardcheckreceived">Η κλήση προωθήθηκε</string>
-    <string name="call_notif_callconnectingect">Η κλήση συνδέεται με μεταφορά κλήσης</string>
-    <string name="call_notif_callconnectedect">Η κλήση συνδέθηκε με μεταφορά κλήσης</string>
-    <string name="incall_vibration">Δόνηση κατά την κλήση</string>
+    <!-- Toast text for incoming call connecting through ECT -->
+    <string name="call_notif_callconnectingect">Call connecting through explicit call transfer</string>
+    <!-- Toast text for incoming call connected through ECT -->
+    <string name="call_notif_callconnectedect">Call connected through explicit call transfer</string>
+
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">Έξυπνη κλήση</string>
+    <string name="smart_phone_call_summary">Βάλτε την συσκευή στο αυτί σας και θα καλέσει αυτόματα το τρέχον νούμερο που βρίσκεται στα μηνύματα ή στο τηλέφωνο</string>
+
+    <!-- Advanced Settings -->
+    <string name="incall_vibration">Δόνηση κατα την κλήση</string>
     <string name="vibrate_outgoing">Δόνηση στην απάντηση</string>
     <string name="vibrate_call_waiting">Δόνηση στην αναμονή</string>
     <string name="vibrate_hangup">Δόνηση στο κλείσιμο</string>
     <string name="vibrate_45">Δόνηση κάθε 1 λεπτό</string>
-    <string name="vibrate_45_sum">Δόνηση στο 45ο δευτερόλεπτο κάθε λεπτού κατά τη διάρκεια εξερχόμενων κλήσεων</string>
+    <string name="vibrate_45_sum">Δόνηση στο 45ο δευτερόλεπτο κάθε λεπτού κατα τη διάρκεια εξερχομένων κλήσεων</string>
     <string name="show_ssn_label">Ειδοποιήσεις συμβάντων</string>
     <string name="show_ssn_summary">Εμφάνιση ειδοποίησης για διάφορα συμβάντα του δικτύου που σχετίζονται με το χειρισμό των κλήσεων</string>
+
+    <!-- Blacklist preferences -->
     <string name="blacklist_title">Μαύρη λίστα</string>
-    <string name="blacklist_summary_disabled">Απενεργοποιημένη</string>
-    <string name="blacklist_summary">Εισερχόμενες κλήσεις από αριθμούς που είναι στη μαύρη λίστα θα απορρίπτονται</string>
-    <string name="blacklist_call_notification">Απορρίφθηκε κλήση από %s</string>
-    <string name="blacklist_call_notification_private_number">Απορρίφθηκε κλήση από απόρρητο αριθμό</string>
-    <string name="blacklist_call_notification_unknown_number">Απορρίφθηκε άγνωστος αριθμός %s</string>
-    <string name="blacklist_call_notification_multiple">Απορρίφθηκαν <xliff:g id="count">%d</xliff:g> κλήσεις</string>
-    <string name="blacklist_message_notification">Απορρίφθηκε μήνυμα από %s</string>
-    <string name="blacklist_message_notification_private_number">Απορρίφθηκε μήνυμα από απόρρητο αριθμό</string>
-    <string name="blacklist_message_notification_unknown_number">Απορρίφθηκε μήνυμα από άγνωστο αριθμό %s</string>
-    <string name="blacklist_message_notification_multiple">Απορρίφθηκαν <xliff:g id="count">%d</xliff:g> μηνύματα</string>
+    <string name="blacklist_summary_disabled">Ανενεργή</string>
+    <string name="blacklist_summary">Εισερχόμενες κλήσεις από νούμερα της μαύρης λίστα θα φράσσονται</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">Έγινε φραγή κλήσης στο %s</string>
+    <string name="blacklist_call_notification_private_number">Έγινε φραγή κλήσης σε απόρρητο νούμερο</string>
+    <string name="blacklist_call_notification_unknown_number">Έγινε φραγή κλήσης στο άγνωστο νούμερο %s</string>
+    <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> κλήσεις που φράχτηκαν</string>
+    <string name="blacklist_message_notification">Έγινε φραγή σε μήνυμα από %s</string>
+    <string name="blacklist_message_notification_private_number">Έγινε φραγή σε μήνυμα απο απόρρητο αριθμό</string>
+    <string name="blacklist_message_notification_unknown_number">Έγινε φραγή σε μήνυμα απο τον άγνωστο αριθμό %s</string>
+    <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> μηνύματα που φράχτηκαν</string>
     <string name="blacklist_notification_list_private">Απόρρητο</string>
-    <string name="unblock_number">Ακύρωση φραγής</string>
-    <string name="mwi_notification_title">Ένδειξη αναμονής μηνύματος</string>
-    <string name="mwi_notification_summary">Εμφάνιση ειδοποίησης μηνύματος τηλεφωνητή</string>
-    <string name="perm_change_mobile_network">Επιλογή δικτύου (2G/3G)</string>
-    <string name="perm_change_mobile_network_desc">Όποια εφαρμογή έχει αυτή την άδεια μπορεί να αλλάζει μεταξύ 2G και 3G δεδομένων. Το 3G είναι γρηγορότερο, καταναλώνει περισσότερο μπαταρία και μπορεί επίσης να σας κοστίσει περισσότερα χρήματα.</string>
-    <string name="phone_number_label">Ο αριθμός μου</string>
-    <string name="phone_number_summary">Ορίστε τον αριθμό τηλεφώνου για αυτή τη συσκευή</string>
-    <string name="noise_suppression_title">Καταστολή θορύβου</string>
-    <string name="noise_suppression_summary">Ενεργοποίηση της καταστολής θορύβου κατά τη διάρκεια κλήσεων</string>
+    <string name="unblock_number">Ξεμπλοκάρισμα</string>
+
+    <!-- Permission for notification-bar network toggle -->
+    <string name="perm_change_mobile_network">Αλλαγή λειτουργίας δικτύου (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Επιτρέπει τις εφαρμογές να αλλάζουν δίκτυο (2G ή 3G) όποτε θέλουν. Το 3G είναι ταχύτερο, αλλα καταναλώνει περισσότερη μπαταρία και μπορεί να επιφέρει επιπλέον κόστος.</string>
+
+    <!-- Call end sound -->
+    <string name="call_end_sound_title">Τόνος τερματισμού κλήσης</string>
+    <string name="call_end_sound_summary">Αναπαραγωγή τόνου στον τερματισμό μιάς κλήσης</string>
+
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Μείωση θορύβου</string>
+    <string name="noise_suppression_summary">Ενεργοποίηση μείωσης θορύβου για κλήσεις</string>
+
+    <!-- My Phone Number -->
+    <string name="phone_number_label">Το νούμερο μου</string>
+    <string name="phone_number_summary">Ορίστε το νούμερο σας για αυτήν την συσκευή</string>
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Ενέργεια αναποδογυρίσματος</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Αναποδογυρίστε για\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Αναποδογυρίζοντας τη συσκευή θα γίνεται<xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">Καμία ενέργεια</string>
+    <string name="entry_mute_ringer">Σίγανση κουδουνίσματος</string>
+    <string name="entry_dismiss_call">Απόρριψη της κλήσης</string>
+    <string name="summary_do_nothing">καμία ενέργεια</string>
+    <string name="summary_mute_ringer">σίγανση κουδουνίσματος</string>
+    <string name="summary_dismiss_call">απόρριψη της κλησης</string>
+
+    <string name="personal_category">Προσωπικές ρυθμίσεις</string>
+
+    <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
+    <string name="mwi_notification_title">Ειδοποίηση φωνητικού μηνύματος</string>
+    <string name="mwi_notification_summary">Προβολή ειδοποίησης όταν υπάρχει φωνητικό μήνυμα</string>
+
+    <!-- Call UI in background -->
+    <string name="bg_incall">Εισερχόμενη κλήση στο παρασκήνιο</string>
+    <string name="bg_incall_summary">Διατήρηση του περιβάλλοντος κλήσης στο παρασκήνιο όταν η οθόνη είναι ανοικτή, προβολή ειδοποίησης και αναπαραγωγή ήχου μόνο</string>
+
+    <!-- Number lookup -->
+    <string name="number_lookup">Αναζητηση τηλεφωνικού νούμερου</string>
+    <string name="enable_forward_lookup_title">Αναζήτηση περιοχών</string>
+    <string name="enable_forward_lookup_summary">Προβολή κοντινών περιοχών όταν γίνεται αναζήτηση στο τηλέφωνο</string>
+    <string name="enable_people_lookup_title">Αναζήτηση προσώπων</string>
+    <string name="enable_people_lookup_summary">Προβολή διαδικτυακών αποτελεσμάτων για πρόσωπα όταν γίνεται αναζήτηση στο τηλεφωνο</string>
+    <string name="enable_reverse_lookup_title">Αντίστροφη αναζήτηση</string>
+    <string name="enable_reverse_lookup_summary">Αναζήτηση πληροφοριών σχετικά με το άτομο ή την περιοχή ενός άγνωστου νούμερου στις εισερχόμενες</string>
+    <string name="choose_lookup_providers">Επιλογή πάροχων αναζήτησης</string>
+    <string name="choose_forward_lookup_provider_title">Πάροχοι αναζήτησης περιοχών</string>
+    <string name="choose_people_lookup_provider_title">Πάροχοι αναζήτησης προσώπων</string>
+    <string name="choose_reverse_lookup_provider_title">Πάροχοι αντίστροφης αναζήτησης</string>
+
+    <!-- Mobile network settings, preferred network mode -->
+    <string name="preferred_network_mode_evdo_only">EvDo μόνο</string>
+    <string name="preferred_network_mode_cdma_without_evdo">CDMA χωρίς EvDo</string>
+    <string name="preferred_network_mode_cdma_evdo_auto">CDMA/EvDo αυτόματο</string>
+    <string name="preferred_network_mode_gsm_wcdma_auto">GSM/WCDMA αυτόματο</string>
+    <string name="preferred_network_mode_wcdma_only">WCDMA μόνο</string>
+    <string name="preferred_network_mode_gsm_only">GSM μόνο</string>
+    <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA προτεινόμενο</string>
+
+    <!-- Pulse torch with incoming call -->
+    <string name="torch_incoming_title">Άναμμα φακού στις εισερχόμενες κλήσεις</string>
+    <string name="torch_incoming_seekbar_title">Ρυθμός ανάμματος φακού</string>
 </resources>
