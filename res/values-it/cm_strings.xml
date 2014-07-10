@@ -85,6 +85,8 @@
     <!-- Call UI in background -->
     <string name="bg_incall">Chiamata in arrivo non intrusiva</string>
     <string name="bg_incall_summary">Lascia la UI della chiamata in arrivo in background, sarà visualizzata una notifica e partirà la suoneria.</string>
+    <string name="bg_incall_as_heads_up">Mostra con heads up</string>
+    <string name="bg_incall_as_heads_up_summary">Mostra la chiamata in arrivo come una notifica di heads up.</string>
 
     <!-- Number lookup -->
     <string name="number_lookup">Ricerca numero di telefono</string>
