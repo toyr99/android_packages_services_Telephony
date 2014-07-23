@@ -103,6 +103,8 @@
     <!-- Call UI in background -->
     <string name="bg_incall">Вызов в фоне</string>
     <string name="bg_incall_summary">Когда экран включен, держать вызов в фоне, показывать уведомление и проигрывать рингтон.</string>
+    <string name="bg_incall_as_heads_up">Показывать, как всплывающее уведомление</string>
+    <string name="bg_incall_as_heads_up_summary">Показывать входящий звонок, как фоновое всплывающее уведомление.</string>
 
     <!-- Number lookup -->
     <string name="number_lookup">Поиск номеров телефона</string>
@@ -125,4 +127,8 @@
     <string name="preferred_network_mode_wcdma_only">Только WCDMA</string>
     <string name="preferred_network_mode_gsm_only">GSM авто</string>
     <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA предпочтение</string>
+    
+    <!-- Pulse torch with incoming call -->
+    <string name="torch_incoming_title">Пульсация фонариком при входящем вызове</string>
+    <string name="torch_incoming_seekbar_title">Частота пульсации фонарика</string>
 </resources>
