@@ -163,4 +163,9 @@
     <!-- Pulse torch with incoming call -->
     <string name="torch_incoming_title">Pulse torch on incoming call</string>
     <string name="torch_incoming_seekbar_title">Torch pulse rate</string>
+
+    <!-- dialpad t9 search -->
+    <string name="preference_category_t9_dialpad_search">Dialpad T9 Search</string>
+    <string name="t9_search_input_locale">T9 Search Input</string>
+    <string name="t9_search_input_locale_default">Default</string>
 </resources>
