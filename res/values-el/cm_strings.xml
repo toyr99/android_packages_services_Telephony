@@ -118,6 +118,8 @@ limitations under the License.
     <!-- Call UI in background -->
     <string name="bg_incall">Εισερχόμενη κλήση στο παρασκήνιο</string>
     <string name="bg_incall_summary">Διατήρηση του περιβάλλοντος κλήσης στο παρασκήνιο όταν η οθόνη είναι ανοικτή, προβολή ειδοποίησης και αναπαραγωγή ήχου μόνο</string>
+    <string name="bg_incall_as_heads_up">Προβολή σαν ειδοποίηση heads up</string>
+    <string name="bg_incall_as_heads_up_summary">Προβολή εισερχόμενης κλήσης στο παρασκήνιο σαν heads up ειδοποίηση.</string>
 
     <!-- Number lookup -->
     <string name="number_lookup">Αναζητηση τηλεφωνικού νούμερου</string>
