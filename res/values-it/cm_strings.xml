@@ -123,4 +123,9 @@
     <!-- Pulse torch with incoming call -->
     <string name="torch_incoming_title">Torcia pulsante durante chiamata in arrivo</string>
     <string name="torch_incoming_seekbar_title">Velocità pulsazione torcia</string>
+    
+    <!-- dialpad t9 search -->
+    <string name="preference_category_t9_dialpad_search">Ricerca tastierino T9</string>
+    <string name="t9_search_input_locale">Input ricerca T9</string>
+    <string name="t9_search_input_locale_default">Predefinito</string>
 </resources>
