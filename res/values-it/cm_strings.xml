@@ -128,4 +128,9 @@
     <string name="preference_category_t9_dialpad_search">Ricerca tastierino T9</string>
     <string name="t9_search_input_locale">Input ricerca T9</string>
     <string name="t9_search_input_locale_default">Predefinito</string>
+    
+    <!-- Incoming call style -->
+    <string name="incoming_call_style_title">Stile chiamata in arrivo</string>
+    <string name="incoming_call_style_classic">Classico</string>
+    <string name="incoming_call_style_fullscreen_photo">Foto a schermo intero</string>
 </resources>
