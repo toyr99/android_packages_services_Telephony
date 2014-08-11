@@ -146,4 +146,14 @@ limitations under the License.
     <!-- Pulse torch with incoming call -->
     <string name="torch_incoming_title">Άναμμα φακού στις εισερχόμενες κλήσεις</string>
     <string name="torch_incoming_seekbar_title">Ρυθμός ανάμματος φακού</string>
+
+    <!-- dialpad t9 search -->
+    <string name="preference_category_t9_dialpad_search">Αναζήτηση με πλήκτρα T9</string>
+    <string name="t9_search_input_locale">Γλώσσα αναζήτησης T9</string>
+    <string name="t9_search_input_locale_default">Προεπιλογή</string>
+
+    <!-- Incoming call style -->
+    <string name="incoming_call_style_title">Στύλ οθόνης εισερχόμενης κλήσης</string>
+    <string name="incoming_call_style_classic">Κλασική</string>
+    <string name="incoming_call_style_fullscreen_photo">Φώτο καλούντος σε πλήρη οθόνη</string>
 </resources>
