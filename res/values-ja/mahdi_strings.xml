@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_notif_unconditionalCF">Unconditional call forwarding active</string>
+    <string name="call_notif_conditionalCF">Conditional call forwarding active</string>
+    <string name="call_notif_MOcall_forwarding">Outgoing call is forwarded</string>
+    <string name="call_notif_cugcall">Call in closed user group</string>
+    <string name="call_notif_outgoing_barred">Outgoing calls barred</string>
+    <string name="call_notif_incoming_barred">Incoming calls barred at remote party</string>
+    <string name="call_notif_clir_suppression_rejected">Own number suppression rejected by network</string>
+    <string name="call_notif_call_deflected">Call forwarded by remote party</string>
+    <string name="call_notif_MTcall_forwarding">Incoming call is forwarded</string>
+    <string name="call_notif_multipartycall">Multi-party call</string>
+    <string name="call_notif_callonhold_released">Call released remotely</string>
+    <string name="call_notif_forwardcheckreceived">Call was forwarded</string>
+    <string name="call_notif_callconnectingect">Call connecting through explicit call transfer</string>
+    <string name="call_notif_callconnectedect">Call connected through explicit call transfer</string>
+    <string name="smart_phone_call_title">スマート発信</string>
+    <string name="smart_phone_call_summary">携帯電話を耳に当てるとメッセージまたはダイヤラーに表示されている番号に自動的に発信する</string>
+    <string name="incall_vibration">着信バイブレーション</string>
+    <string name="vibrate_outgoing">応答時に振動</string>
+    <string name="vibrate_call_waiting">キャッチホン時に振動</string>
+    <string name="vibrate_hangup">終話時に振動</string>
+    <string name="vibrate_45">1分毎に振動</string>
+    <string name="vibrate_45_sum">発信通話中の毎分45秒の時点で振動する</string>
+    <string name="show_ssn_label">イベント通知</string>
+    <string name="show_ssn_summary">通話処理に関する様々なネットワークイベントの通知を表示する</string>
+    <string name="blacklist_title">ブラックリスト</string>
+    <string name="blacklist_summary_disabled">無効</string>
+    <string name="blacklist_summary">ブラックリストにある電話番号からの着信をブロックする</string>
+    <string name="blacklist_call_notification">%sからの着信をブロックしました</string>
+    <string name="blacklist_call_notification_private_number">プライベート番号からの着信をブロックしました</string>
+    <string name="blacklist_call_notification_unknown_number">未登録番号%sからの着信をブロックしました</string>
+    <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g>回の着信をブロックしました</string>
+    <string name="blacklist_message_notification">%sからのメッセージをブロックしました</string>
+    <string name="blacklist_message_notification_private_number">プライベート番号からのメッセージをブロックしました</string>
+    <string name="blacklist_message_notification_unknown_number">未登録番号%sからのメッセージをブロックしました</string>
+    <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g>回のメッセージをブロックしました</string>
+    <string name="blacklist_notification_list_private">プライベート</string>
+    <string name="unblock_number">ブロックしない</string>
+    <string name="perm_change_mobile_network">change network mode (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">Allows the app to change between 2G data and 3G data at any time. 3G is faster, but consumes more battery and may cause additional cost.</string>
+    <string name="call_end_sound_title">終話時に音を再生</string>
+    <string name="call_end_sound_summary">通話を終了した時に音を再生する</string>
+    <string name="noise_suppression_title">ノイズ抑制</string>
+    <string name="noise_suppression_summary">通話ノイズの抑制を有効にする</string>
+    <string name="phone_number_label">デバイスの電話番号</string>
+    <string name="phone_number_summary">このデバイスの電話番号を設定する</string>
+    <string name="flip_action_title">フリップアクション</string>
+    <string name="flip_action_dialog_title">フリップ時の動作</string>
+    <string name="flip_action_summary">デバイスを裏返した時の動作:<xliff:g id="action">%s</xliff:g></string>
+    <string name="entry_do_nothing">何もしない</string>
+    <string name="entry_mute_ringer">着信音をミュート</string>
+    <string name="entry_dismiss_call">着信拒否</string>
+    <string name="summary_do_nothing">何もしない</string>
+    <string name="summary_mute_ringer">着信音をミュート</string>
+    <string name="summary_dismiss_call">着信拒否</string>
+    <string name="personal_category">個人設定</string> 
+    <string name="mwi_notification_title">メッセージ待機インジケータ</string>
+    <string name="mwi_notification_summary">ボイスメール通知のメッセージ待機インジケータを表示する</string>
+    <string name="bg_incall">バックグラウンドで着信</string>
+    <string name="bg_incall_summary">画面がオンの時は着信UIはバックグラウンドで保持して着信音の再生と通知の表示のみにする</string>
+    <string name="bg_incall_as_heads_up">ヘッドアップで通知</string>
+    <string name="bg_incall_as_heads_up_summary">バックグラウンドの着信をヘッドアップで通知する</string>
+    <string name="number_lookup">電話番号検索</string>
+    <string name="enable_forward_lookup_title">正引き検索</string>
+    <string name="enable_forward_lookup_summary">ダイヤラーで検索した時に近くの場所を表示する</string>
+    <string name="enable_people_lookup_title">人物検索</string>
+    <string name="enable_people_lookup_summary">ダイヤラーで検索した時に人物についてのオンライン検索結果を表示する</string>
+    <string name="enable_reverse_lookup_title">逆引き検索</string>
+    <string name="enable_reverse_lookup_summary">着信した未登録番号から人物や場所に関する情報を検索する</string>
+    <string name="choose_lookup_providers">検索プロバイダーの選択</string>
+    <string name="choose_forward_lookup_provider_title">正引き検索のプロバイダを選択</string>
+    <string name="choose_people_lookup_provider_title">人物検索のプロバイダを選択</string>
+    <string name="choose_reverse_lookup_provider_title">逆引き検索のプロバイダを選択</string>
+    <string name="preferred_network_mode_td_scdma_only">TD-SCDMAのみ</string>
+    <string name="preferred_network_mode_global">グローバル</string>
+    <string name="preferred_network_mode_evdo_only">EvDoのみ</string>
+    <string name="preferred_network_mode_cdma_without_evdo">CDMA w/o EvDo</string>
+    <string name="preferred_network_mode_cdma_evdo_auto">CDMA/EvDo自動</string>
+    <string name="preferred_network_mode_gsm_wcdma_auto">GSM/WCDMA自動</string>
+    <string name="preferred_network_mode_wcdma_only">WCDMAのみ</string>
+    <string name="preferred_network_mode_gsm_only">GSMのみ</string>
+    <string name="preferred_network_mode_gsm_wcdma_preferred">GSM/WCDMA優先</string>
+    <string name="torch_incoming_title">着信時にトーチを点滅</string>
+    <string name="torch_incoming_seekbar_title">点滅間隔</string>
+    <string name="preference_category_t9_dialpad_search">T9検索</string>
+    <string name="t9_search_input_locale">T9検索の言語</string>
+    <string name="t9_search_input_locale_default">デフォルト</string>
+    <string name="incoming_call_style_title">着信画面スタイル</string>
+    <string name="incoming_call_style_classic">クラシック</string>
+    <string name="incoming_call_style_fullscreen_photo">写真を全画面表示</string>
+    <string name="dialkey_padding_title">ダイヤルパッドの間隔</string>
+    <string name="dialkey_padding_dialog_title">ダイヤルパッドの間隔</string>
+    <string name="dialkey_padding_summary">ダイヤルパッドの数字キーの上下の間隔を変更する</string>
+    <string name="entry_0dip">0dip</string>
+    <string name="entry_5dip">5dip</string>
+    <string name="entry_10dip">10dip</string>
+    <string name="entry_15dip">15dip</string>
+    <string name="entry_20dip">20dip</string>
+    <string name="entry_25dip">25dip</string>
+</resources>
