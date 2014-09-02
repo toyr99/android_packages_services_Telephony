@@ -123,4 +123,32 @@
     <!-- Pulse torch with incoming call -->
     <string name="torch_incoming_title">Torcia pulsante durante chiamata in arrivo</string>
     <string name="torch_incoming_seekbar_title">Velocità pulsazione torcia</string>
+    
+    
+    <!-- dialpad t9 search -->
+    <string name="preference_category_t9_dialpad_search">Ricerca tastierino T9</string>
+    <string name="t9_search_input_locale">Input ricerca T9</string>
+    <string name="t9_search_input_locale_default">Predefinito</string>
+    
+    <!-- Incoming call style -->
+    <string name="incoming_call_style_title">Stile chiamata in arrivo</string>
+    <string name="incoming_call_style_classic">Classico</string>
+    <string name="incoming_call_style_fullscreen_photo">Foto a schermo intero</string>
+    
+    <!-- Setting title for dialpad key padding. -->
+    <string name="dialkey_padding_title">Tastierino</string>
+
+    <!-- Dialog title of the dialpad key padding setting. -->
+    <string name="dialkey_padding_dialog_title">Stile</string>
+
+    <!-- Setting summary for the dialpad key padding setting. -->
+    <string name="dialkey_padding_summary">Spazio in alto e in basso nel tastierino</string>
+
+    <!-- Values for dialpad key padding array entries. -->
+    <string name="entry_0dip">0dip</string>
+    <string name="entry_5dip">5dip</string>
+    <string name="entry_10dip">10dip</string>
+    <string name="entry_15dip">15dip</string>
+    <string name="entry_20dip">20dip</string>
+    <string name="entry_25dip">25dip</string>
 </resources>
