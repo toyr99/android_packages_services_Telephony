@@ -113,4 +113,7 @@
     <string name="entry_15dip">15dip</string>
     <string name="entry_20dip">20dip</string>
     <string name="entry_25dip">25dip</string>
+    <string name="proximity_mode_title">近接センサを有効にする</string>
+    <string name="proximity_on_summary">着信時に近接センサを使用して画面をオフにする</string>
+    <string name="proximity_off_summary">着信時に画面をオンにしたままにする</string>
 </resources>
