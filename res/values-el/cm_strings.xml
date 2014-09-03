@@ -156,4 +156,22 @@ limitations under the License.
     <string name="incoming_call_style_title">Στύλ οθόνης εισερχόμενης κλήσης</string>
     <string name="incoming_call_style_classic">Κλασική</string>
     <string name="incoming_call_style_fullscreen_photo">Φώτο καλούντος σε πλήρη οθόνη</string>
+
+    <!-- Setting title for dialpad key padding. -->
+    <string name="dialkey_padding_title">Μέγεθος πλήκτρων</string>
+
+    <!-- Dialog title of the dialpad key padding setting. -->
+    <string name="dialkey_padding_dialog_title">Μέγεθος των αριθμητικών πλήκτρων</string>
+
+    <!-- Setting summary for the dialpad key padding setting. -->
+    <string name="dialkey_padding_summary">Ύψος του αριθμητικού πληκτρολογίου απο την κορυφή ώς την βάση</string>
+
+    <!-- Values for dialpad key padding array entries. -->
+    <string name="entry_0dip">0dip</string>
+    <string name="entry_5dip">5dip</string>
+    <string name="entry_10dip">10dip</string>
+    <string name="entry_15dip">15dip</string>
+    <string name="entry_20dip">20dip</string>
+    <string name="entry_25dip">25dip</string>
+
 </resources>
