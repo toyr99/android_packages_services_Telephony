@@ -174,4 +174,8 @@ limitations under the License.
     <string name="entry_20dip">20dip</string>
     <string name="entry_25dip">25dip</string>
 
+    <!-- Proximity sensor enable -->
+    <string name="proximity_mode_title">Ενεργοποίηση αισθητήρα απόστασης</string>
+    <string name="proximity_on_summary">Όταν είστε σε κλήση, ο αισθητήρας κλείνει την οθόνη.</string>
+    <string name="proximity_off_summary">Όταν είστε σε κλήση, η οθόνη μένει ανοιχτή.</string>
 </resources>
