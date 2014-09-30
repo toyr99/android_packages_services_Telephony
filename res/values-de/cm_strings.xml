@@ -119,6 +119,8 @@ limitations under the License.
     <!-- Call UI in background -->
     <string name="bg_incall">Eingehende Anrufe im Hintergrund</string>
     <string name="bg_incall_summary">Eingehende Anrufsignalisierung nur durch Benachrichtigung und Klingelton</string>
+    <string name="bg_incall_as_heads_up">Als Heads-Up Benachrichtigung anzeigen</string>
+    <string name="bg_incall_as_heads_up_summary">Zeigt den Eingehenden Anruf im Hintergrund als Heads-Up Benachrichtigung</string>
 
     <!-- Number lookup -->
     <string name="number_lookup">Telefonnummernsuche</string>
@@ -147,4 +149,31 @@ limitations under the License.
     <!-- Pulse torch with incoming call -->
     <string name="torch_incoming_title">Pulsieren der Taschenlampe bei eingehenden Anrufen</string>
     <string name="torch_incoming_seekbar_title">Pulsrate</string>
+    
+        <!-- dialpad t9 search -->
+    <string name="preference_category_t9_dialpad_search">Wähltasten T9 Suche</string>
+    <string name="t9_search_input_locale">T9 Sucheingabe</string>
+    <string name="t9_search_input_locale_default">Standard</string>
+
+    <!-- Incoming call style -->
+    <string name="incoming_call_style_title">Einkommender Anruf Stil</string>
+    <string name="incoming_call_style_classic">Klassisch</string>
+    <string name="incoming_call_style_fullscreen_photo">Vollbild Anruferfoto</string>
+
+    <!-- Setting title for dialpad key padding. -->
+    <string name="dialkey_padding_title">Wähltastenabstand</string>
+
+    <!-- Dialog title of the dialpad key padding setting. -->
+    <string name="dialkey_padding_dialog_title">Abstand der Wähltasten</string>
+
+    <!-- Setting summary for the dialpad key padding setting. -->
+    <string name="dialkey_padding_summary">Größe des Abstands oben und unten</string>
+
+    <!-- Values for dialpad key padding array entries. -->
+    <string name="entry_0dip">0</string>
+    <string name="entry_5dip">5</string>
+    <string name="entry_10dip">10</string>
+    <string name="entry_15dip">15</string>
+    <string name="entry_20dip">20</string>
+    <string name="entry_25dip">25</string>
 </resources>
