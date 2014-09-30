@@ -45,6 +45,10 @@
     <!-- Toast text for incoming call connected through ECT -->
     <string name="call_notif_callconnectedect">Llamada conectada por centralita</string>
 
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">Llamada de teléfono inteligente</string>
+    <string name="smart_phone_call_summary">Ponga el dispositivo en su oído, y llamará automáticamente el número actual de mensaje o marcador</string>
+
     <!-- Advanced Settings -->
     <string name="incall_vibration">Vibración en llamada</string>
     <string name="vibrate_outgoing">Vibrar al contestar</string>
@@ -71,8 +75,6 @@
     <string name="blacklist_message_notification_multiple"><xliff:g id="count">%d</xliff:g> mensajes fueron bloqueados</string>
     <string name="blacklist_notification_list_private">Privado</string>
     <string name="unblock_number">Desbloquear</string>
-    <string name="mwi_notification_title">Notificación buzón de voz</string>
-    <string name="mwi_notification_summary">Mostrar una notificación para los mensajes en espera del buzón de voz</string>
 
     <!-- Permission for notification-bar network toggle -->
     <string name="perm_change_mobile_network">Cambiar red (2G/3G)</string>
@@ -81,11 +83,6 @@
     <!-- AOSP -->
     <string name="throttle_status_subtext">Máx de <xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) del período <xliff:g id="used">%3$s</xliff:g>\nPróx período en <xliff:g id="used">%4$d</xliff:g> días (<xliff:g id="used">%5$s</xliff:g>)</string>
     <string name="throttle_data_usage_subtext">Máx de <xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) del período <xliff:g id="used">%3$s</xliff:g></string>
-
-    <!-- In Call UI -->
-    <string name="preference_category_interface">Interface</string>
-    <string name="non_intrusive_incall_title">No intrusivo</string>
-    <string name="non_intrusive_incall_summary">Usar diálogo no intrusivo para llamadas entrantes</string>
 
     <!-- Call end sound -->
     <string name="call_end_sound_title">Tono de fin de llamada</string>
@@ -118,6 +115,16 @@
 
     <string name="personal_category">Ajustes personales</string>
 
+    <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
+    <string name="mwi_notification_title">Indicador de espera del mensaje</string>
+    <string name="mwi_notification_summary">Mostrar mensaje de espera notificaciones de correo de voz indicador</string>
+	
+    <!-- Call UI in background -->
+    <string name="bg_incall">Llamada entrante en el fondo</string>
+    <string name="bg_incall_summary">Mantiene la IU de llamada entrante en segundo plano cuando la pantalla está encendida, muestra una notificación y reproduce sonido unicamente</string>
+    <string name="bg_incall_as_heads_up">Mostrar con heads up</string>
+    <string name="bg_incall_as_heads_up_summary">Mostrar llamada entrante como notificación heads up.</string>
+
     <!-- Number lookup -->
     <string name="number_lookup">Número de teléfono de búsqueda</string>
     <string name="enable_forward_lookup_title">Activar búsqueda de enviadas</string>
@@ -131,17 +138,28 @@
     <string name="choose_people_lookup_provider_title">Elija proveedor de people lookup</string>
     <string name="choose_reverse_lookup_provider_title">Elija proveedor de búsqueda de recibidas</string>
 
-    <!-- Call UI in background -->
-    <string name="bg_incall">Llamada entrante en el fondo</string>
-    <string name="bg_incall_summary">Mantiene la IU de llamada entrante en segundo plano cuando la pantalla está encendida, muestra una notificación y reproduce sonido unicamente</string>
+    <!-- Pulse torch with incoming call -->
+    <string name="torch_incoming_title">Parpadeo de linterna en llamada entrante</string>
+    <string name="torch_incoming_seekbar_title">Frecuencia de parpadeo de linterna</string>
+	
+    <!-- dialpad t9 search -->
+    <string name="preference_category_t9_dialpad_search">Búsqueda T9 teclado</string>
+    <string name="t9_search_input_locale">Entrada de búsqueda T9</string>
+    <string name="t9_search_input_locale_default">Por defecto</string>
 
-    <!-- Smart Phone Call -->
-    <string name="smart_phone_call_title">Llamada de teléfono inteligente</string>
-    <string name="smart_phone_call_summary">Ponga el dispositivo en su oído, y llamará automáticamente el número actual de mensaje o marcador</string>
+    <!-- Incoming call style -->
+    <string name="incoming_call_style_title">Estilo de pantalla de llamadas entrantes</string>
+    <string name="incoming_call_style_classic">Clásica</string>
+    <string name="incoming_call_style_fullscreen_photo">Pantalla completa de imagen</string>
 
-    <!-- Dialpad key padding. -->
-    <string name="dialkey_padding_title">Separación de teclas del marcador</string>
-    <string name="dialkey_padding_dialog_title">Separación de teclas del marcador</string>
-    <string name="dialkey_padding_summary">Espaciado superior e inferior de las teclas numericas del panel de marcado</string>
+    <!-- dialpad key padding. -->
+    <string name="dialkey_padding_title">Padding teclas de marcación</string>
+    <string name="dialkey_padding_dialog_title">Padding para teclas de marcación</string>
+    <string name="dialkey_padding_summary">Cantidad de relleno en la parte superior e inferior de las teclas numéricas del teclado de marcación</string>
+
+    <!-- Proximity sensor enable -->
+    <string name="proximity_mode_title">Activar sensor de proximidad</string>
+    <string name="proximity_on_summary">Durante la llamada,el sensor de proximidad apaga la pantalla.</string>
+    <string name="proximity_off_summary">Durante la llamada,la pantalla permanece encendida.</string>
 
 </resources>
