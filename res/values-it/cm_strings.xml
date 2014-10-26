@@ -151,4 +151,9 @@
     <string name="entry_15dip">15dip</string>
     <string name="entry_20dip">20dip</string>
     <string name="entry_25dip">25dip</string>
+    
+    <!-- Proximity sensor enable -->
+    <string name="proximity_mode_title">Attiva sensore prossimità</string>
+    <string name="proximity_on_summary">Durante la chiamata, usa il sensore di prossimità per spegnere lo schermo.</string>
+    <string name="proximity_off_summary">Durante la chiamata, lo schermo rimarrà acceso.</string>
 </resources>
